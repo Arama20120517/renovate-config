@@ -9,7 +9,6 @@
     // https://docs.renovatebot.com/presets-helpers/#helperspingithubactiondigeststosemver
     "helpers:pinGitHubActionDigestsToSemver"
   ],
-  "enabledManagers": ["github-actions"],
 
   "separateMajorMinor": false,
   "separateMultipleMinor": false,
