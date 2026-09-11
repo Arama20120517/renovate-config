@@ -18,7 +18,7 @@ jobs:
           persist-credentials: false
 
       - name: Validate repository-level Renovate presets
-        uses: docker://renovate/renovate:44.79.2@sha256:9327fbe499d0e01d090480e43e9b35fb6e56a7d4f7e4f806882c56f752da4ad4
+        uses: docker://renovate/renovate:44.79.6@sha256:68881493de47bcc2f8c3fee39138118f0c6ea353065f94c0fce4a8eaffe97a32
         with:
           entrypoint: /usr/local/sbin/renovate-config-validator
           args: --strict --no-global default.json
